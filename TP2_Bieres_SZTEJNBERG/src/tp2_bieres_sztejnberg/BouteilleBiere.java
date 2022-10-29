@@ -9,5 +9,16 @@ package tp2_bieres_sztejnberg;
  * @author orian
  */
 public class BouteilleBiere {
+    string nom;
+    double degreAlcool;
+    string brasserie;
+    boolean ouverte;
     
+    
+Public void lireEtiquette() {
+System.out.println("Bouteille de " + nom +" (" + degreAlcool +
+ " degres) \nBrasserie : " + brasserie ) ;
+
+}
+
 }
