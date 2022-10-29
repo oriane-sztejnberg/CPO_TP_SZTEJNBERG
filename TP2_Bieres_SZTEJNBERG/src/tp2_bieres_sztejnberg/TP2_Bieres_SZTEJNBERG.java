@@ -38,6 +38,9 @@ public class TP2_Bieres_SZTEJNBERG {
         System.out.println(capsulebiere3);// TEST QUESTION 12
         //Question13
     System.out.println(uneBiere) ;
+    System.out.println(uneBiere1) ;
+    System.out.println(uneBiere2) ;
+    System.out.println(uneBiere3) ;
     }
     
 }
