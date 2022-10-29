@@ -21,6 +21,25 @@ public class TP2_relation_1_SZTEJNBERG {
         Personne bob = new Personne("Bobby", "Sixkiller");
         Personne reno = new Personne("Reno", "Raines");
         System.out.println("liste des voitures disponibles "+ uneClio +"\n" + uneAutreClio + "\n" + une2008 + "\n" + uneMicra ) ;
+   
+        
+        bob.liste_voitures[0] = uneClio ;
+        bob.nbVoitures = 1 ;
+        uneClio.Proprietaire = bob ;
+        System.out.println("la premiere voiture de Bob est " +bob.liste_voitures[0] ) ;
+        bob.liste_voitures[1]= uneMicra ;
+        bob.nbVoitures=2;
+        uneMicra.Proprietaire=bob;
+        System.out.println("la deuxieme voiture de Bob est " +bob.liste_voitures[1] ) ;
+        reno.liste_voitures[0]=une2008;
+        reno.nbVoitures=1;
+        une2008.Proprietaire= reno;
+        System.out.println("la premiere voiture de Reno est " +reno.liste_voitures[0] ) ;
+        reno.liste_voitures[1]=uneAutreClio;
+        reno.nbVoitures=1;
+        uneAutreClio.Proprietaire= reno;
+        System.out.println("la deuxieme voiture de Reno est " +reno.liste_voitures[1] ) ;
     }
+    
     
 }
