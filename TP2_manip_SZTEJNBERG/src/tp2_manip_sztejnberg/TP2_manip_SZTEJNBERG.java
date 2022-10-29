@@ -34,6 +34,9 @@ System.out.println("nb de calories de Assiette 2 : " +assiette2.nbCalories) ;
 //question6: une reference objet qui annonce referencer un type d'objet,
 //peut réferencer que ce type d'objet et pas un autre.
 
+
+
+// question réalisée sans faire de tableau
 Moussaka Moussakamere= new Moussaka(100);
 Moussaka Moussaka1=Moussakamere;
 Moussaka Moussaka2=Moussakamere;
@@ -56,7 +59,18 @@ Moussaka8=new Moussaka(900);
 Moussaka9=new Moussaka(1000);
 Moussaka10=new Moussaka(1100);
 
+// Question avec tableau:
 
+
+int calories=300;
+Moussaka Tab[]= new Moussaka[10];
+ for(int i=0;i<10;i++){
+     Moussaka Assiette= new Moussaka(calories);
+     Tab[i]=Assiette;
+     calories+=25;
+     System.out.println(calories);
+     
+ }
 
     }
     
