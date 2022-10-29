@@ -9,5 +9,16 @@ package tp2_convertisseurobjet_sztejnberg;
  * @author orian
  */
 public class Convertisseur {
-    
+    int nbconversion;
+
+public Convertisseur(){
+    nbconversion=0;
+
+public float CelciusVersKelvin (){
+    floatCelc= floatCelc+273,15;
+
+
+
 }
+}
+
