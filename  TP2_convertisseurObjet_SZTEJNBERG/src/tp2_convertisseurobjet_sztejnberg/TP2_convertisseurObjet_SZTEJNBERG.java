@@ -14,7 +14,21 @@ public class TP2_convertisseurObjet_SZTEJNBERG {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Convertisseur converter= new Convertisseur();
+        float temp=converter.CelciusVersKelvin(30);
+        converter.FarenheitVersCelcius(50);
+        converter.KelvinVersFarenheit(200);
+        Convertisseur converter2= new Convertisseur();
+        converter2.FarenheitVersKelvin(30);
+        converter2.CelciustVersFarenheit(80);
+        converter2.KelvinVersCelcius(55);
+       
+    
+        System.out.println(temp);
+        System.out.println(converter);
+        System.out.println(converter2);
+    
+                
     }
     
 }
