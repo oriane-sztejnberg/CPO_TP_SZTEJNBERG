@@ -9,5 +9,5 @@ package tp2_bieres_sztejnberg;
  * @author orian
  */
 public class BouteilleBiere {
-    string("n")
+    
 }
