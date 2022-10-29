@@ -12,5 +12,23 @@ public class Voiture {
     String modele;
     String marque;
     int puissanceCV;
+public Voiture (String unModele,String uneMarque,int unePuissanceCV){
+    modele=unModele;
+    marque=uneMarque;
+    puissanceCV=unePuissanceCV;    
     
 }
+    
+    public String toString(){
+    return (marque+""+modele+" "+puissanceCV);
+    }
+    
+    
+    
+    
+    
+}
+    
+    
+    
+  
